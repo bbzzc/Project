@@ -50,15 +50,9 @@ p {
     padding: 1.5em;
 }
 
-.header__logo {
-    float: left;
-    padding: 1em;
-    vertical-align: top;
-}
-
 .header__title {
     font-weight: 100;
-    font-size: 1.25em; 
+    font-size: 1.25em;
     float: right;
     align-content: flex-end;
     display: block;
