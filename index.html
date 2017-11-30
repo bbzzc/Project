@@ -12,8 +12,32 @@
 
             <!-- Custom styles for this template -->
             <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet">
-
             <link rel="stylesheet" href="main.css">
+
+            /* Smartphones (portrait) ----------- */
+            @media only screen
+            and (max-width : 320px) {
+              .header__title {
+                 font-size: 1.25em;
+              }
+            }
+
+            /* iPads (portrait and landscape) ----------- */
+            @media only screen
+            and (min-device-width : 768px)
+            and (max-device-width : 1024px) {
+              .header__title {
+                 font-size: 2.25em;
+              }
+            }
+
+            /* Desktops and laptops ----------- */
+            @media only screen
+            and (min-width : 1224px) {
+              .header__title {
+                 font-size: 3.25em;
+              }
+            }
 
       </head>
   <body>
@@ -50,19 +74,17 @@
     <!-- Row for large pic -->
 
     <main>
-      <div class="row">
-        <div class="col-md-12">
-            <figure>
-                <img class="img_responsive" src="images/frosty-pattern.jpg" alt="http://www.publicdomainpictures.net/view-image.php?image=20566&picture=frosty-pattern">
-            </figure>
-          </div>
+        <div class="row col-md-12">
+          <figure>
+              <img class="img_responsive" src="images/frosty-pattern.jpg" alt="http://www.publicdomainpictures.net/view-image.php?image=20566&picture=frosty-pattern">
+          </figure>
         </div>  <!-- close of main pic -->
 
         <!-- Row for featured work heading-->
 
         <div class="feature__box">
-            <div class="row">
-                <h3 class="col-md-12 feature__title">
+            <div class="row col-md-12">
+                <h3 class="feature__title">
                  Featured Photos
                 </h3>
                 <p class="feature__desc">Photos from our various travels</p>
