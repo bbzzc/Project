@@ -12,21 +12,21 @@ body {
       font-family: sans-serif;
       font-size: 12px;
       padding: 4em;
-      max-width: 100%;   
+      max-width: 100%;
 }
 
 
-h1, 
-h2, 
-h3, 
-h4, 
+h1,
+h2,
+h3,
+h4,
 h5 {
     margin: 0;
 }
 
-header, 
-footer, 
-div, 
+header,
+footer,
+div,
 main {
     background-color: #e8e4e4;
     box-sizing: border-box;
@@ -47,7 +47,7 @@ p {
     max-width: 100%;
     height: auto;
     border-bottom: 4px #7d97ad;
-    padding: 1.5em;  
+    padding: 1.5em;
 }
 
 .header__logo {
@@ -58,7 +58,7 @@ p {
 
 .header__title {
     font-weight: 100;
-    font-size: 3.25em; 
+    font-size: 1.25em; 
     float: right;
     align-content: flex-end;
     display: block;
@@ -76,7 +76,7 @@ p {
     font-weight: 100;
     font-size: 1.5em;
     float: right;
-    text-align: right;    
+    text-align: right;
     color: #212121;
     text-transform: uppercase;
 }
@@ -128,5 +128,5 @@ main {
     font-size: 150%;
     text-align:  center;
     align-content: center;
-    text-transform: uppercase; 
+    text-transform: uppercase;
 }
