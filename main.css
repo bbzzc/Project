@@ -102,13 +102,13 @@ main {
 
 .feature__title {
     font-weight: 100;
-    font-size: 2em;
+    font-size: 0.75em;
     padding: 0.25em;
 }
 
 .feature__desc {
     font-weight: 100;
-    font-size: 1.25em;
+    font-size: 0.5em;
     padding: 0.5em;
 }
 
