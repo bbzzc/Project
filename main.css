@@ -39,6 +39,85 @@ p {
 
 /*
  *
+ * Media Queries
+ *
+ */
+
+ /*-- Smartphones (portrait) -----------*/
+ @media only screen
+ and (max-width: 320px) {
+   .header__title {
+      font-size: 1.25em;
+   }
+
+   .header__subtitle {
+     font-size: 11px;
+   }
+
+   .feature__title {
+     font-size: 1em;
+   }
+
+   .feature__desc {
+     font-size: 11px;
+   }
+
+   .card-text {
+     font-size: 100%;
+   }
+ }
+
+ /*-- iPads (portrait and landscape) -----------*/
+ @media only screen
+ and (min-width: 768px)
+ and (max-width: 1024px) {
+   .header__title {
+      font-size: 2.25em;
+   }
+
+   .header__subtitle {
+     font-size: 13px;
+   }
+
+   .feature__title {
+     font-size: 1.5em;
+   }
+
+   .feature__desc {
+     font-size: 13px;
+   }
+
+   .card-text {
+     font-size: 100%;
+   }
+ }
+
+ /*-- Desktops and laptops -----------*/
+ @media only screen
+ and (min-width: 1224px) {
+   .header__title {
+      font-size: 3.25em;
+   }
+
+   .header__subtitle {
+     font-size: 1.5em;
+   }
+
+   .feature__title {
+     font-size: 2em;
+   }
+
+   .feature__desc {
+     font-size: 1.25em;
+   }
+
+   .card-text {
+     font-size: 150%;
+   }
+ }
+
+/*
+ *
  * Header
  *
  */
@@ -68,7 +147,7 @@ p {
 
 .header__subtitle {
     font-weight: 100;
-    font-size: 0.75em;
+    font-size: 11px;
     float: right;
     text-align: right;
     color: #212121;
@@ -109,7 +188,7 @@ main {
 .feature__desc {
     font-weight: 100;
     font-size: 0.5em;
-    padding: 0.5em;
+    padding: 11px;
 }
 
 
