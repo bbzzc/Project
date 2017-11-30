@@ -51,7 +51,7 @@ p {
    }
 
    .header__subtitle {
-     font-size: 11px;
+     font-size: 12px;
    }
 
    .feature__title {
@@ -59,7 +59,7 @@ p {
    }
 
    .feature__desc {
-     font-size: 11px;
+     font-size: 12px;
    }
 
    .card-text {
@@ -76,7 +76,7 @@ p {
    }
 
    .header__subtitle {
-     font-size: 13px;
+     font-size: 14px;
    }
 
    .feature__title {
@@ -84,7 +84,7 @@ p {
    }
 
    .feature__desc {
-     font-size: 13px;
+     font-size: 14px;
    }
 
    .card-text {
@@ -147,7 +147,7 @@ p {
 
 .header__subtitle {
     font-weight: 100;
-    font-size: 11px;
+    font-size: 12px;
     float: right;
     text-align: right;
     color: #212121;
@@ -162,7 +162,7 @@ p {
 
 main {
     max-width: 100%;
-    padding: 1.5em;
+    padding: 0.75em;
     display: block;
     height: auto;
 }
@@ -187,10 +187,8 @@ main {
 
 .feature__desc {
     font-weight: 100;
-    font-size: 0.5em;
-    padding: 11px;
+    font-size: 12px;
 }
-
 
 .card {
     padding: 0.5em;
