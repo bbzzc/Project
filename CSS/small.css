@@ -1,0 +1,19 @@
+.header__title {
+   font-size: 1.25em;
+}
+
+.header__subtitle {
+  font-size: 12px;
+}
+
+.feature__title {
+  font-size: 1em;
+}
+
+.feature__desc {
+  font-size: 12px;
+}
+
+.card-text {
+  font-size: 100%;
+}
