@@ -15,7 +15,6 @@ body {
       max-width: 100%;
 }
 
-
 h1,
 h2,
 h3,
@@ -45,7 +44,7 @@ p {
 
  /*-- Smartphones (portrait) -----------*/
  @media only screen
- and (max-width: 320px) {
+ and (max-device-width: 320px) {
    .header__title {
       font-size: 1.25em;
    }
@@ -69,8 +68,8 @@ p {
 
  /*-- iPads (portrait and landscape) -----------*/
  @media only screen
- and (min-width: 768px)
- and (max-width: 1024px) {
+ and (min-device-width: 768px)
+ and (max-device-width: 1024px) {
    .header__title {
       font-size: 2.25em;
    }
@@ -94,7 +93,7 @@ p {
 
  /*-- Desktops and laptops -----------*/
  @media only screen
- and (min-width: 1224px) {
+ and (min-device-width: 1224px) {
    .header__title {
       font-size: 3.25em;
    }
